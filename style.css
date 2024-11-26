@@ -1,0 +1,372 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+}
+
+
+  
+
+header{
+  background-image:url("net.back.jpg");
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 98vw;
+
+
+}
+nav{
+  display: flex;
+  width: 80vw;
+  height: 60px;
+  margin: 22px auto;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbutton button{
+padding: 10px;
+margin: 9px;
+border-radius: 7px;
+width: 100px;
+}
+.topbutton :nth-child(2){
+  background-color: red;
+  color: white;
+  border: transparent;
+}
+.topbutton :nth-child(1){
+  background: transparent;
+font: inherit;
+color: white;
+border: 2px solid rgb(118, 118, 118);
+}
+.topbutton :nth-child(1):hover{
+  background-color: rgb(66, 66, 66);
+}
+.topbutton :nth-child(2):hover{
+  background-color: rgb(161, 45, 45);
+}
+.blackbox{
+  width: 98vw;
+  
+  height: 70vh;
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  background: rgb(0 0 0 / 40%); */
+  border: 2px solid black;
+  /* padding: 23px; */
+  padding-top: 23px;
+  padding-bottom: 23px;
+  opacity: calc(69px);
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 70%);
+}
+.box2{
+  width: 90vw;
+  margin: auto;
+  height: 68vh;
+  padding: 10px;
+  color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.line1{
+  font-weight: bolder;
+font-size: 40px;
+text-align: center;
+}
+.line2{
+  text-align: center;
+  font-size: 25px;
+}
+.line3{
+  text-align: center;
+  font-weight: bolder;
+}
+.button :nth-child(1){
+  background: black;
+  border-radius: 4px;
+  font: inherit;
+  color: white;
+  border: 2px solid rgb(118, 118, 118);
+  width: 430px;
+  height: 60px;
+  padding-left: 18px;
+}
+::placeholder{
+  color: rgb(182, 182, 182);
+
+  font-weight:lighter;
+}
+.button :nth-child(1):hover{
+  background-color: rgb(66, 66, 66);
+}
+.button :nth-child(2){
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border: transparent;
+  border-radius: 4px;
+  height: 60px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+}
+.button :nth-child(2):hover{
+  background-color: rgb(161, 45, 45);
+}
+.section1 {
+  margin: 200px auto;
+max-width: 80vw;
+display: flex;
+justify-content: center;
+  color: white;
+align-items: center;
+position: relative;
+  /* border: 2px solid white; */
+}
+.contentimg img{
+  position: relative;
+  top: 0px;
+  width: 40vw;
+ z-index: 10;
+}
+
+.contentimg video{
+  position: absolute;
+  top: 51px;
+  right: 100px;
+  width: 38%;
+}
+.content{
+display: flex;
+flex-direction: column;
+row-gap: 12px;
+justify-content: center;
+align-items: center;
+width: 400px;
+}
+.content :nth-child(1){
+  font-size: 40px;
+  font-weight: bolder;
+  align-self: baseline;
+
+}
+.content :nth-child(2){
+  font-weight: bolder;
+  align-self: baseline;
+}
+.section2 {
+  margin: 200px auto;
+max-width: 80vw;
+display: flex;
+justify-content: center;
+  color: white;
+align-items: center;
+position: relative;
+  /* border: 2px solid white; */
+}
+.contentimg2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.st2{
+  width: 30vw;
+  border: 2px solid white;
+  height: 150px;
+  position: relative;
+ border-radius: 8px;
+  bottom: 75px;
+    left: 103px;
+    padding: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(118, 118, 118);
+    column-gap: 20px;
+}
+.st2 div :first-child{
+  font-weight: bolder;
+  font-size: 26px;
+}
+.st2 div :nth-child(2){
+  color: blue;
+}
+.content2{
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  }
+.content2 :nth-child(1){
+  font-size: 48px;
+  font-weight: bolder;
+  align-self: baseline;
+}
+.content2 :nth-child(2){
+  font-weight: bolder;
+  align-self: baseline;
+}
+.section3 {
+  margin: 200px auto;
+max-width: 80vw;
+display: flex;
+justify-content: center;
+  color: white;
+align-items: center;
+position: relative;
+  /* border: 2px solid white; */
+}
+.contentimg3 img{
+  position: relative;
+  top: 0px;
+  width: 40vw;
+ z-index: 10;
+}
+
+.contentimg3 video{
+  position: absolute;
+  top: 51px;
+ 
+
+  right: 187px;
+  width: 380px;
+
+}
+.content3{
+display: flex;
+flex-direction: column;
+row-gap: 12px;
+justify-content: center;
+align-items: center;
+width: 400px;
+}
+.content3 :nth-child(1){
+  font-size: 40px;
+  font-weight: bolder;
+  align-self: baseline;
+
+}
+.content3 :nth-child(2){
+  font-weight: bolder;
+  align-self: baseline;
+}
+.section4{
+  margin: 200px auto;
+  max-width: 80vw;
+  display: flex;
+  justify-content: center;
+    color: white;
+  align-items: center;
+}
+.content4 :nth-child(1){
+  font-size: 48px;
+  font-weight: bolder;
+  align-self: baseline;
+}
+.content4 :nth-child(2){
+  font-weight: bolder;
+  align-self: baseline;
+}
+
+.faq div h1{
+text-align: center;
+width: 80vw;
+font-size: 48px;
+font-weight: bolder;
+margin: 60px auto;
+}
+.faq2 :nth-child(1) :hover{
+ background-color:rgb(66, 66, 66) ;
+}
+.faq2 article{
+font-size: 30px;
+font-weight: lighter;
+padding: 23px;
+border-radius: 5px;
+color: white;
+width: 70vw;
+}
+.faq2{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+}
+.email{
+  width: 70vw;
+  margin:60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.email :nth-child(1){
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.footer{
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  row-gap: 23px;
+}
+.call{
+ 
+  width: 70vw;
+  margin: 23px auto;
+}
+.footer article a{
+color: white;
+}
+.lastbutton{
+  width: 70vw;
+  margin: 23px auto;
+}
+.lastbutton button:hover{
+  background-color: rgb(66, 66, 66);
+}
+.lastbutton button{
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(118, 118, 118);
+  border-radius: 4px;
+padding: 12px;}
+.lastbutton :nth-child(2){
+margin-top: 20px;
+margin-bottom: 200px;
+}
+.hi article{
+  width: 30px;
+}
+
+
+
+
+
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Track background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(177, 174, 174); /* Scrollbar thumb color */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+  border: 2px solid #000; /* Space around the thumb */
+}
